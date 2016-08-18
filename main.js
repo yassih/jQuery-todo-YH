@@ -39,6 +39,8 @@ $(document).ready(function(){
 });
 //removing all the list
 $('#deleteList').on('click', function(event){
+  $('p').text('');
+  $('p').removeClass('warning');
   $('.listOne').text("");
 });
 
